@@ -23,16 +23,53 @@ def main():
         """
         <style>
         body {
-            background-color: #DAA520;
+            background-color: #ffffff;
             color: #000000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .stApp {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: #FFFFFF;
         }
         .stButton button {
-            background-color: #c88979;
-            color: #000000;
+            background-color: #2E8B57;
+            color: #FFFFFF;
+            border: none;
             border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .stButton button:hover {
+            background-color: #a7d1ba;
         }
         .stTextInput>div>div>input {
-            border-radius: 10px;
+            border-radius: 11px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .stTextInput label {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .stTitle {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .stSubheader {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
         </style>
         """,

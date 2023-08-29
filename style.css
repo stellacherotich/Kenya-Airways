@@ -1,11 +1,13 @@
+/* Global Styles */
 body {
-    background-color: #DAA520;
+    background-color: #ffffff;
     color: #000000;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* App Container */
 .stApp {
     max-width: 800px;
     margin: 0 auto;
@@ -15,16 +17,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.stButton button {
-    background-color: #c88979;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
+/* Text Input Styles */
 .stTextInput>div>div>input {
     border-radius: 11px;
     padding: 10px;
@@ -37,6 +30,7 @@ body {
     margin-bottom: 5px;
 }
 
+/* Title and Subheader Styles */
 .stTitle {
     font-size: 32px;
     font-weight: bold;
@@ -48,4 +42,20 @@ body {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+/* Button Styles */
+.stButton button {
+    background-color: #2E8B57; /* Button color */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.stButton button:hover {
+    background-color: #a7d1ba; /* Hover color */
 }
